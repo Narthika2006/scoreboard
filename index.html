@@ -5,93 +5,101 @@
   <title>India vs New Zealand - Cricket Scoreboard</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #000000;
       margin: 0;
       padding: 20px;
-      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #001f3f, #001233);
+      color: #fff;
     }
 
     .scoreboard {
-      background: #0a0a0a;
-      border-radius: 10px;
-      padding: 20px;
       max-width: 1000px;
       margin: auto;
-      box-shadow: 0 0 20px #00aaff44;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
     }
 
     h1, h2 {
       text-align: center;
-      color: #00aaff;
+      color: #00d9ff;
+      margin-bottom: 20px;
     }
 
     .teams {
       display: flex;
       justify-content: space-between;
-      margin: 20px 0;
+      margin-bottom: 30px;
     }
 
     .team {
       flex: 1;
-      text-align: center;
-      padding: 15px;
-      background: #111111;
-      margin: 0 10px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 2px solid #00c3ff;
       border-radius: 10px;
-      border: 2px solid #00aaff;
+      text-align: center;
+      margin: 0 10px;
+      padding: 20px;
     }
 
     .team h3 {
       margin: 0;
       font-size: 20px;
+      color: #00ffff;
     }
 
     .score {
-      font-size: 24px;
-      color: #00ffcc;
+      font-size: 26px;
+      font-weight: bold;
+      color: #00ffab;
       margin-top: 10px;
     }
 
     table {
       width: 100%;
+      margin-top: 20px;
       border-collapse: collapse;
-      margin: 20px 0;
+      background: rgba(255, 255, 255, 0.04);
     }
 
     th, td {
-      border: 1px solid #333333;
-      padding: 10px;
+      padding: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
       text-align: left;
-      background-color: #111111;
+      color: #e0e0e0;
     }
 
     th {
-      background-color: #00aaff;
+      background-color: #0077b6;
       color: #ffffff;
     }
 
-    td {
-      color: #dddddd;
-    }
-
     .summary {
-      background: #111111;
-      padding: 15px;
-      border-left: 5px solid #00aaff;
-      margin-top: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border-left: 5px solid #00bcd4;
+      padding: 20px;
+      margin-top: 30px;
     }
 
     .highlight {
+      color: #ff6b6b;
       font-weight: bold;
-      color: #ff5555;
+    }
+
+    @media (max-width: 768px) {
+      .teams {
+        flex-direction: column;
+        gap: 15px;
+      }
     }
   </style>
 </head>
 <body>
 
   <div class="scoreboard">
-    <h1>🏏 India 🇮🇳 vs New Zealand 🇳🇿 - Live Scoreboard</h1>
+    <h1>🏏 India 🇮🇳 vs New Zealand 🇳🇿</h1>
 
     <div class="teams">
       <div class="team">
@@ -168,7 +176,7 @@
 
     <div class="summary">
       <p><strong>Match Summary:</strong></p>
-      <p>India has posted <strong>162/4</strong> in <strong>17.2 overs</strong>. New Zealand requires <strong>163 runs</strong> to win in 20 overs.</p>
+      <p>India scored <strong>162/4</strong> in <strong>17.2 overs</strong>. New Zealand needs <strong>163 runs</strong> in 20 overs to win.</p>
     </div>
   </div>
 
