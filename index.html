@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>India vs New Zealand - Cricket Scoreboard</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #001f3f, #001233);
+      color: #fff;
+    }
+
+    .scoreboard {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #00d9ff;
+      margin-bottom: 20px;
+    }
+
+    .teams {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .team {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.08);
+      border: 2px solid #00c3ff;
+      border-radius: 10px;
+      text-align: center;
+      margin: 0 10px;
+      padding: 20px;
+    }
+
+    .team h3 {
+      margin: 0;
+      font-size: 20px;
+      color: #00ffff;
+    }
+
+    .score {
+      font-size: 26px;
+      font-weight: bold;
+      color: #00ffab;
+      margin-top: 10px;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      text-align: left;
+      color: #e0e0e0;
+    }
+
+    th {
+      background-color: #0077b6;
+      color: #ffffff;
+    }
+
+    .summary {
+      background: rgba(255, 255, 255, 0.05);
+      border-left: 5px solid #00bcd4;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    .highlight {
+      color: #ff6b6b;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .teams {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="scoreboard">
+    <h1>🏏 India 🇮🇳 vs New Zealand 🇳🇿</h1>
+
+    <div class="teams">
+      <div class="team">
+        <h3>India</h3>
+        <div class="score">162/4 (17.2 overs)</div>
+      </div>
+      <div class="team">
+        <h3>New Zealand</h3>
+        <div class="score">Yet to Bat</div>
+      </div>
+    </div>
+
+    <h2>Batting - India</h2>
+    <table>
+      <tr>
+        <th>Player</th>
+        <th>Runs</th>
+        <th>Balls</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>Rohit Sharma</td>
+        <td>54</td>
+        <td>34</td>
+        <td class="highlight">Out</td>
+      </tr>
+      <tr>
+        <td>Virat Kohli</td>
+        <td>45</td>
+        <td>28</td>
+        <td>Not Out</td>
+      </tr>
+      <tr>
+        <td>Rishabh Pant</td>
+        <td>23</td>
+        <td>14</td>
+        <td class="highlight">Out</td>
+      </tr>
+      <tr>
+        <td>Hardik Pandya</td>
+        <td>30</td>
+        <td>17</td>
+        <td>Not Out</td>
+      </tr>
+    </table>
+
+    <h2>Bowling - New Zealand</h2>
+    <table>
+      <tr>
+        <th>Bowler</th>
+        <th>Overs</th>
+        <th>Runs</th>
+        <th>Wickets</th>
+      </tr>
+      <tr>
+        <td>Trent Boult</td>
+        <td>4.0</td>
+        <td>29</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Tim Southee</td>
+        <td>3.2</td>
+        <td>33</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Mitchell Santner</td>
+        <td>4.0</td>
+        <td>25</td>
+        <td>1</td>
+      </tr>
+    </table>
+
+    <div class="summary">
+      <p><strong>Match Summary:</strong></p>
+      <p>India scored <strong>162/4</strong> in <strong>17.2 overs</strong>. New Zealand needs <strong>163 runs</strong> in 20 overs to win.</p>
+    </div>
+  </div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>India vs New Zealand - Cricket Scoreboard</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #001f3f, #001233);
+      color: #fff;
+    }
+
+    .scoreboard {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #00d9ff;
+      margin-bottom: 20px;
+    }
+
+    .teams {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .team {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.08);
+      border: 2px solid #00c3ff;
+      border-radius: 10px;
+      text-align: center;
+      margin: 0 10px;
+      padding: 20px;
+    }
+
+    .team h3 {
+      margin: 0;
+      font-size: 20px;
+      color: #00ffff;
+    }
+
+    .score {
+      font-size: 26px;
+      font-weight: bold;
+      color: #00ffab;
+      margin-top: 10px;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      text-align: left;
+      color: #e0e0e0;
+    }
+
+    th {
+      background-color: #0077b6;
+      color: #ffffff;
+    }
+
+    .summary {
+      background: rgba(255, 255, 255, 0.05);
+      border-left: 5px solid #00bcd4;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    .highlight {
+      color: #ff6b6b;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .teams {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="scoreboard">
+    <h1>🏏 India 🇮🇳 vs New Zealand 🇳🇿</h1>
+
+    <div class="teams">
+      <div class="team">
+        <h3>India</h3>
+        <div class="score">162/4 (17.2 overs)</div>
+      </div>
+      <div class="team">
+        <h3>New Zealand</h3>
+        <div class="score">Yet to Bat</div>
+      </div>
+    </div>
+
+    <h2>Batting - India</h2>
+    <table>
+      <tr>
+        <th>Player</th>
+        <th>Runs</th>
+        <th>Balls</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>Rohit Sharma</td>
+        <td>54</td>
+        <td>34</td>
+        <td class="highlight">Out</td>
+      </tr>
+      <tr>
+        <td>Virat Kohli</td>
+        <td>45</td>
+        <td>28</td>
+        <td>Not Out</td>
+      </tr>
+      <tr>
+        <td>Rishabh Pant</td>
+        <td>23</td>
+        <td>14</td>
+        <td class="highlight">Out</td>
+      </tr>
+      <tr>
+        <td>Hardik Pandya</td>
+        <td>30</td>
+        <td>17</td>
+        <td>Not Out</td>
+      </tr>
+    </table>
+
+    <h2>Bowling - New Zealand</h2>
+    <table>
+      <tr>
+        <th>Bowler</th>
+        <th>Overs</th>
+        <th>Runs</th>
+        <th>Wickets</th>
+      </tr>
+      <tr>
+        <td>Trent Boult</td>
+        <td>4.0</td>
+        <td>29</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Tim Southee</td>
+        <td>3.2</td>
+        <td>33</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Mitchell Santner</td>
+        <td>4.0</td>
+        <td>25</td>
+        <td>1</td>
+      </tr>
+    </table>
+
+    <div class="summary">
+      <p><strong>Match Summary:</strong></p>
+      <p>India scored <strong>162/4</strong> in <strong>17.2 overs</strong>. New Zealand needs <strong>163 runs</strong> in 20 overs to win.</p>
+    </div>
+  </div>
+
+</body>
+</html>
